@@ -1,0 +1,45 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# IDE/editor files
+.idea/
+.vscode/
+
+# OS/filesystem noise
+.DS_Store
+Thumbs.db
+
+# Logs and temp outputs
+logs/
+*.log
+
+# Training/evaluation generated artifacts
+analysis/
+fangyanoutput/
+preprocessed_data/
+split_data/
+datajson/
+data geshi/
+lm/
+*.wav
+
+# Large model checkpoints (keep code/config only)
+origin_model/
+dialect_model_best_full/
+dialect_model_final_origin/
+dialect_model_final_adapter_close/
+dialect_model_final_variation_close/
+
+# Common large binary model files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx

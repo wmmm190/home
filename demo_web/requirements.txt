@@ -1,0 +1,8 @@
+flask>=3.0
+torch
+transformers
+librosa
+numpy
+scipy
+jiwer
+safetensors

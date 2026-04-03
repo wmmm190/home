@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>方言语音识别演示</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <section class="panel">
+      <h1>方言语音识别演示</h1>
+      <p class="sub">支持上传音频与麦克风录音识别</p>
+
+      <div class="uploader">
+        <input id="audioInput" type="file" accept="audio/*" />
+        <button id="runBtn">识别当前音频</button>
+      </div>
+
+      <div class="recorder">
+        <button id="startRecBtn" class="record">开始录音</button>
+        <button id="stopRecBtn" disabled>停止录音</button>
+        <span id="recordingTime" class="timer">00:00</span>
+      </div>
+
+      <div class="status" id="status">就绪。</div>
+
+      <label class="label">音频预览</label>
+      <audio id="audioPlayer" controls preload="none"></audio>
+
+      <label class="label">识别结果</label>
+      <textarea id="resultText" rows="7" readonly placeholder="识别文本将显示在这里"></textarea>
+
+      <p class="hint">提示：若同时有上传文件和录音，优先识别上传文件。</p>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
