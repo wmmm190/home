@@ -790,10 +790,10 @@ def main():
                         help="KenLM 文件路径（.arpa/.bin，不提供则只做 greedy/beam 对比）")
     parser.add_argument("--beam-width", type=int, default=20,
                         help="Beam 宽度（默认 20）")
-    parser.add_argument("--lm-weight", type=float, default=0.5,
-                        help="LM 权重 alpha（默认 0.5）")
-    parser.add_argument("--word-score", type=float, default=0.0,
-                        help="长度奖励 beta（默认 0.0）")
+    parser.add_argument("--lm-weight", type=float, default=0.8,
+                        help="LM 权重 alpha（默认 0.8）")
+    parser.add_argument("--word-score", type=float, default=1.0,
+                        help="长度奖励 beta（默认 1.0）")
     parser.add_argument("--max-samples", type=int, default=None,
                         help="最多评估样本数（默认全部）")
 
@@ -878,8 +878,8 @@ def main():
               f"--model {args.model} --test-json {args.test_json} "
               f"--lm-path {args.lm_path} "
               f"--beam-width {best_params.get('beam_width', 20)} "
-              f"--lm-weight {best_params.get('alpha', 0.5)} "
-              f"--word-score {best_params.get('beta', 0.0)}")
+              f"--lm-weight {best_params.get('alpha', 0.8)} "
+              f"--word-score {best_params.get('beta', 1.0)}")
         return
 
     # 构建解码器
