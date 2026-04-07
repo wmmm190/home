@@ -1,0 +1,16 @@
+{
+  "use_adapter": true,
+  "use_variation_layer": true,
+  "bottleneck_size": 256,
+  "num_layers": 25,
+  "kernel_sizes": [
+    3,
+    11,
+    21
+  ],
+  "num_attention_heads": 8,
+  "dropout": 0.3,
+  "num_dialects": 7,
+  "dialect_loss_weight": 0.005,
+  "ctc_temperature": 1.0
+}
