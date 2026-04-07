@@ -41,7 +41,11 @@ https://huggingface.co/wbbbbb/wav2vec2%2Dlarge%2Dchinese%2Dzh%2Dcn
 如需对外发布模型或服务，请先完成合规审查并遵守对应协议条款。
 参考文献
 [1] S.-H. Wang, Z.-C. Chen, J. Shi, M.-T. Chuang, G.-T. Lin, K.-P. Huang, D. Harwath, S.-W. Li, and H.-yi. Lee, “How to Learn a New Language? An Efficient Solution for Self-Supervised Learning Models Unseen Languages Adaption in Low-Resource Scenario,” arXiv preprint. arXiv:2411.18217, 2025. [Online]. Available: https://arxiv.org/abs/2411.18217.
+
 [2] W. Liu, J. Hou, D. Yang, M. Cao, and T. Lee, “A Parameter-efficient Language Extension Framework for Multilingual ASR,” in Proc. Interspeech 2024, 2024, pp. 3929–3933. doi: 10.21437/Interspeech.2024-1745.
+
 [3] A. Gulati, J. Qin, C.-C. Chiu, N. Parmar, Y. Zhang, J. Yu, W. Han, S. Wang, Z. Zhang, Y. Wu, and R. Pang, “Conformer: Convolution-augmented Transformer for Speech Recognition,” in Proc. Interspeech 2020, 2020, pp. 5036–5040. doi: 10.21437/Interspeech.2020-3015.
+
 [4] R. Feng, Y.-L. Liu, Z.-H. Ling, and J.-H. Yuan, “Wav2f0: Exploring the Potential of Wav2vec 2.0 for Speech Fundamental Frequency Extraction,” in 2024 IEEE 14th International Symposium on Chinese Spoken Language Processing (ISCSLP), Beijing, China, 2024, pp. 169–173. doi: 10.1109/ISCSLP63861.2024.10800188.
+
 [5] A. Pasad, J.-C. Chou, and K. Livescu, “Layer-Wise Analysis of a Self-Supervised Speech Representation Model,” in 2021 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU), Cartagena, Colombia, 2021, pp. 914–921. doi: 10.1109/ASRU51503.2021.9688093.
